@@ -1,266 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IOSLAB - Crafting Exceptional iPhone Apps. Premium native iOS development with Swift and SwiftUI.">
-    <meta name="theme-color" content="#000000">
-    <title>IOSLAB - Premium iOS App Development</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <div class="logo">IOSLAB</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#apps">Apps</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why">Why Us</a></li>
-                <li><a href="#contact" class="nav-cta">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+# IOSLAB - Premium iOS Development Website
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Crafting Exceptional iPhone Apps.</h1>
-            <p class="hero-subtitle">Premium native iOS development with Swift and SwiftUI. Elegant. Fast. Privacy-first.</p>
-            <div class="hero-cta">
-                <a href="#contact" class="btn btn-primary">Start Your Project</a>
-                <a href="#apps" class="btn btn-secondary">View Our Work</a>
-            </div>
-        </div>
-        <div class="hero-visual">
-            <div class="iphone-frame">
-                <div class="iphone-screen"></div>
-            </div>
-        </div>
-    </section>
+A premium one-page website for IOSLAB, a premier software studio specializing in native iOS application development with Swift and SwiftUI.
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="section-container">
-            <div class="about-content">
-                <h2 class="section-title">About IOSLAB</h2>
-                <p class="about-text">
-                    IOSLAB is a modern software studio specializing in native iOS development. We create elegant, high-performance applications that embody Apple's philosophy of simplicity and precision.
-                </p>
-                <p class="about-text">
-                    With expertise in Swift, SwiftUI, and App Store publishing, we transform innovative ideas into world-class iPhone applications. Our focus is on delivering products that users love and businesses trust.
-                </p>
-                <div class="about-stats">
-                    <div class="stat">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Apps Published</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">10M+</div>
-                        <div class="stat-label">Total Downloads</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">4.8★</div>
-                        <div class="stat-label">Avg. Rating</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+## 🎨 Design Philosophy
 
-    <!-- Featured Apps Section -->
-    <section id="apps" class="apps">
-        <div class="section-container">
-            <h2 class="section-title">Featured Applications</h2>
-            <div class="apps-grid">
-                <div class="app-card">
-                    <div class="app-icon">
-                        <div class="icon-placeholder productivity"></div>
-                    </div>
-                    <h3 class="app-name">TaskFlow Pro</h3>
-                    <p class="app-description">Intelligent task management with AI-powered scheduling and seamless iCloud sync.</p>
-                    <a href="https://apps.apple.com" target="_blank" class="app-link">
-                        <span>View on App Store</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M7 17L17 7M17 7H7M17 7V17"></path>
-                        </svg>
-                    </a>
-                </div>
+The website embodies Apple's design principles with:
+- **Minimalist Black Background** - Pure elegance with white typography
+- **Premium Aesthetics** - Glass morphism, subtle animations, and smooth transitions
+- **Apple-Inspired** - Clean layouts with generous spacing and hierarchy
+- **Responsive Design** - Seamless experience on desktop, tablet, and mobile
 
-                <div class="app-card">
-                    <div class="app-icon">
-                        <div class="icon-placeholder health"></div>
-                    </div>
-                    <h3 class="app-name">WellnessTrack</h3>
-                    <p class="app-description">Privacy-first health tracking with real-time insights and intelligent wellness recommendations.</p>
-                    <a href="https://apps.apple.com" target="_blank" class="app-link">
-                        <span>View on App Store</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M7 17L17 7M17 7H7M17 7V17"></path>
-                        </svg>
-                    </a>
-                </div>
+## 📋 Features
 
-                <div class="app-card">
-                    <div class="app-icon">
-                        <div class="icon-placeholder finance"></div>
-                    </div>
-                    <h3 class="app-name">SecureVault</h3>
-                    <p class="app-description">Military-grade encryption for secure note storage and password management on-device.</p>
-                    <a href="https://apps.apple.com" target="_blank" class="app-link">
-                        <span>View on App Store</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M7 17L17 7M17 7H7M17 7V17"></path>
-                        </svg>
-                    </a>
-                </div>
+### Sections
+1. **Hero** - Eye-catching introduction with animated iPhone mockup
+2. **About IOSLAB** - Company background with impressive statistics
+3. **Featured Apps** - Showcase of published applications with App Store links
+4. **Services** - Core offerings including iOS Development, SwiftUI Design, AI Integration, and App Store Publishing
+5. **Why Choose Us** - Key differentiators and value propositions
+6. **Contact** - Contact form and social media integration
+7. **Navigation & Footer** - Sticky navbar with smooth scrolling and comprehensive footer
 
-                <div class="app-card">
-                    <div class="app-icon">
-                        <div class="icon-placeholder creativity"></div>
-                    </div>
-                    <h3 class="app-name">SketchLine</h3>
-                    <p class="app-description">Professional illustration app with advanced brush engine and seamless Apple Pencil integration.</p>
-                    <a href="https://apps.apple.com" target="_blank" class="app-link">
-                        <span>View on App Store</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M7 17L17 7M17 7H7M17 7V17"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+### Interactive Elements
+- Smooth scroll navigation
+- Mobile-responsive hamburger menu
+- Parallax effects on hero section
+- Animated statistics counter
+- Form handling with visual feedback
+- Intersection observer animations
+- Ripple effects on buttons
+- Professional glass-morphism UI elements
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="section-container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <rect x="2" y="3" width="20" height="18" rx="2"></rect>
-                            <path d="M2 9h20"></path>
-                        </svg>
-                    </div>
-                    <h3>Native iOS Development</h3>
-                    <p>Custom iPhone and iPad applications built with Swift for optimal performance and user experience.</p>
-                </div>
+## 🚀 Quick Start
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M12 2L2 7L2 12C2 16.5 12 22 12 22s10-5.5 10-10V7L12 2Z"></path>
-                        </svg>
-                    </div>
-                    <h3>SwiftUI Design</h3>
-                    <p>Modern declarative UI development with SwiftUI for beautiful, responsive interfaces across all Apple devices.</p>
-                </div>
+### Installation
+1. Create a folder for your project
+2. Save all 4 files in that folder:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+   - `README.md`
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 6v6l4 2"></path>
-                        </svg>
-                    </div>
-                    <h3>AI Integration</h3>
-                    <p>Implement machine learning and on-device AI using Core ML, Create ML, and natural language processing.</p>
-                </div>
+### Usage
+Simply open `index.html` in a modern web browser. No build process or dependencies required.
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
-                            <path d="M12 6v6l4.25 2.25"></path>
-                        </svg>
-                    </div>
-                    <h3>App Store Publishing</h3>
-                    <p>End-to-end App Store submission, optimization, and marketing strategies to maximize visibility and downloads.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+```bash
+# Option 1: Double-click the HTML file
+open index.html
 
-    <!-- Why Choose IOSLAB -->
-    <section id="why" class="why-choose">
-        <div class="section-container">
-            <h2 class="section-title">Why Choose IOSLAB</h2>
-            <div class="reasons-grid">
-                <div class="reason">
-                    <h4>Apple-Quality Standards</h4>
-                    <p>We follow Apple's human interface guidelines and design principles for premium user experiences.</p>
-                </div>
-                <div class="reason">
-                    <h4>Performance-First</h4>
-                    <p>Optimized code, minimal battery drain, and lightning-fast load times are built into every project.</p>
-                </div>
-                <div class="reason">
-                    <h4>Privacy-Centric</h4>
-                    <p>On-device processing, encrypted data, and transparent data practices in all applications.</p>
-                </div>
-                <div class="reason">
-                    <h4>Expert Team</h4>
-                    <p>Seasoned iOS developers with years of experience shipping successful apps on the App Store.</p>
-                </div>
-                <div class="reason">
-                    <h4>Full Service</h4>
-                    <p>From concept to launch: design, development, testing, and App Store publication in one partnership.</p>
-                </div>
-                <div class="reason">
-                    <h4>Ongoing Support</h4>
-                    <p>Continuous updates, maintenance, and feature additions to keep your app competitive and modern.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-container">
-            <h2 class="section-title">Let's Build Something Amazing</h2>
-            <p class="contact-subtitle">Reach out to discuss your iOS app idea or explore how IOSLAB can help your business.</p>
-            
-            <div class="contact-content">
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="company">Company</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="6" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h4>Email</h4>
-                        <a href="mailto:hello@ioslab.dev">hello@ioslab.dev</a>
-                    </div>
-                    <div class="contact-item">
-                        <h4>Connect</h4>
+# Option 2: Use a local server (recommended)
+python3 -m http.server 8000
+# Then visit: http://localhost:8000
                         <div class="social-links">
                             <a href="https://linkedin.com/company/ioslab" target="_blank" title="LinkedIn">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
